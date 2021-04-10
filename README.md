@@ -1,3 +1,4 @@
+
 # Challange2021-MSD
 
 ## Beyond Covid-19
@@ -19,3 +20,7 @@ Next steps:
 - [x] Partecipare alla challange
 - [x] Pubblicare il progetto
 - [ ] Vincere
+
+
+
+![Schermata 2021-04-11 alle 01 05 36](https://user-images.githubusercontent.com/32599184/114286789-29947600-9a62-11eb-8298-d058ff976ad6.png)
