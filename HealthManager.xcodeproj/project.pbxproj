@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631FCFC320B447D00069AC99 /* Reminder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631FCFC220B447D00069AC99 /* Reminder.storyboard */; };
+		631FCFC520B447DF0069AC99 /* Recomendation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631FCFC420B447DF0069AC99 /* Recomendation.storyboard */; };
+		631FCFC720B4491D0069AC99 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631FCFC620B4491D0069AC99 /* Recommendation.swift */; };
+		631FCFCB20B4494A0069AC99 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631FCFCA20B4494A0069AC99 /* Reminder.swift */; };
+		631FCFCD20B4496E0069AC99 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631FCFCC20B4496E0069AC99 /* Category.swift */; };
+		633420C420B5E594002BA7DE /* NotificationCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633420C320B5E594002BA7DE /* NotificationCenterManager.swift */; };
+		633420C620B6C525002BA7DE /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633420C520B6C525002BA7DE /* RemindersTableViewController.swift */; };
+		633420C820B6D141002BA7DE /* NewReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633420C720B6D140002BA7DE /* NewReminderTableViewController.swift */; };
+		633420CB20B6DF17002BA7DE /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633420CA20B6DF17002BA7DE /* APIManager.swift */; };
+		633420CD20B70A93002BA7DE /* NotificationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633420CC20B70A93002BA7DE /* NotificationTypes.swift */; };
+		633820A520DD516300F60DB2 /* PillsReminder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633820A420DD516300F60DB2 /* PillsReminder.storyboard */; };
+		633820A720DD707F00F60DB2 /* PillsRemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633820A620DD707F00F60DB2 /* PillsRemTableViewController.swift */; };
+		633820A920DD709900F60DB2 /* NewPillRemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633820A820DD709900F60DB2 /* NewPillRemTableViewController.swift */; };
+		633820AD20DD70BE00F60DB2 /* EditPillRemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633820AC20DD70BE00F60DB2 /* EditPillRemTableViewController.swift */; };
+		633820AF20DD734800F60DB2 /* PillReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633820AE20DD734800F60DB2 /* PillReminder.swift */; };
+		639C77D520BC498E00D23014 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C77D420BC498E00D23014 /* HomeViewController.swift */; };
+		63D85FF220DAA0E70003A827 /* EditReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D85FF120DAA0E70003A827 /* EditReminderTableViewController.swift */; };
+		7155435420E1000B0011A8FB /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7155435320E1000B0011A8FB /* FoldingCell.swift */; };
+		7155435A20E101020011A8FB /* RecommendationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7155435920E101020011A8FB /* RecommendationTableViewCell.swift */; };
+		7413952120C188C2008F8BF0 /* AddDocument.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7413952020C188C2008F8BF0 /* AddDocument.storyboard */; };
+		741395BE20C1922D008F8BF0 /* IRLCamera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741395BD20C1922D008F8BF0 /* IRLCamera.storyboard */; };
+		741395C520C19286008F8BF0 /* AddDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741395C420C19286008F8BF0 /* AddDocumentViewController.swift */; };
+		7437955F20C0349C00DDE905 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437955E20C0349C00DDE905 /* Constants.swift */; };
+		7437956220C0351800DDE905 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437956020C0351800DDE905 /* DataManager.swift */; };
+		7437956320C0351800DDE905 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437956120C0351800DDE905 /* HealthKitManager.swift */; };
+		7437956820C0357100DDE905 /* RecommendationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437956420C0357100DDE905 /* RecommendationTableViewController.swift */; };
+		7437956A20C0357100DDE905 /* CategoriesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437956620C0357100DDE905 /* CategoriesCollectionViewController.swift */; };
+		7437956B20C0357100DDE905 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437956720C0357100DDE905 /* MainTabBarController.swift */; };
+		7437957420C0362F00DDE905 /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7437957220C0362F00DDE905 /* OnboardingPageViewController.swift */; };
+		7437957520C0362F00DDE905 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7437957320C0362F00DDE905 /* Onboarding.storyboard */; };
+		744E8E3E20CA8A580094E3DD /* AddVisitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744E8E3D20CA8A580094E3DD /* AddVisitTableViewController.swift */; };
+		744E8E4020CA8AA50094E3DD /* VisitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744E8E3F20CA8AA50094E3DD /* VisitCollectionViewCell.swift */; };
+		744E8E4220CA90DE0094E3DD /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744E8E4120CA90DE0094E3DD /* Config.swift */; };
+		7459CBD020D0214800747143 /* IRLCameraMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7459CBCE20D0214700747143 /* IRLCameraMedia.xcassets */; };
+		74E6114120D0161F00799732 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E6111920D0161F00799732 /* TOCropViewControllerLocalizable.strings */; };
+		74E6114220D0161F00799732 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6112420D0161F00799732 /* TOActivityCroppedImageProvider.m */; };
+		74E6114320D0161F00799732 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6112520D0161F00799732 /* UIImage+CropRotate.m */; };
+		74E6114420D0161F00799732 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6112620D0161F00799732 /* TOCropViewControllerTransitioning.m */; };
+		74E6114520D0161F00799732 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6112720D0161F00799732 /* TOCroppedImageAttributes.m */; };
+		74E6114620D0161F00799732 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6112C20D0161F00799732 /* TOCropViewController.m */; };
+		74E6114720D0161F00799732 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6113B20D0161F00799732 /* TOCropScrollView.m */; };
+		74E6114820D0161F00799732 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6113C20D0161F00799732 /* TOCropView.m */; };
+		74E6114920D0161F00799732 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6113D20D0161F00799732 /* TOCropOverlayView.m */; };
+		74E6114A20D0161F00799732 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6113E20D0161F00799732 /* TOCropToolbar.m */; };
+		74E6115520D016FB00799732 /* CIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6114D20D016FB00799732 /* CIImage+Utilities.m */; };
+		74E6115620D016FB00799732 /* IRLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6114E20D016FB00799732 /* IRLCameraView.m */; };
+		74E6115720D016FB00799732 /* CIRectangleFeature+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6115320D016FB00799732 /* CIRectangleFeature+Utilities.m */; };
+		74E6115820D016FB00799732 /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6115420D016FB00799732 /* UIButton+Extensions.m */; };
+		74E6115B20D0172800799732 /* IRLScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E6115A20D0172800799732 /* IRLScannerViewController.m */; };
+		74EFFE8F20C5CD9600E4C39F /* DocumentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EFFE8E20C5CD9600E4C39F /* DocumentCollectionViewCell.swift */; };
+		74F7B8F220E266AA00729F83 /* ShowPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7B8F120E266A900729F83 /* ShowPDFViewController.swift */; };
+		E424809520DA8B5E00197BD7 /* NotificationIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E424809420DA8B5E00197BD7 /* NotificationIdentifiers.swift */; };
+		E424809720DA8B6D00197BD7 /* PersistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E424809620DA8B6D00197BD7 /* PersistantService.swift */; };
+		E424809920DA8B8200197BD7 /* RecommendationsBase.plist in Resources */ = {isa = PBXBuildFile; fileRef = E424809820DA8B8200197BD7 /* RecommendationsBase.plist */; };
+		E424809B20DA8BB400197BD7 /* CheckReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E424809A20DA8BB300197BD7 /* CheckReminderTableViewController.swift */; };
+		E424809E20DA8BFD00197BD7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E424809D20DA8BFD00197BD7 /* HealthKit.framework */; };
+		E48CA8BD20E1230700DBBE36 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CA8BC20E1230700DBBE36 /* HomeCollectionViewController.swift */; };
+		E48CA8CE20E2344200DBBE36 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CA8CD20E2344200DBBE36 /* HealthViewController.swift */; };
+		E48CA8D020E2345A00DBBE36 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CA8CF20E2345A00DBBE36 /* NotificationsViewController.swift */; };
+		E48CA8D220E2346900DBBE36 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CA8D120E2346900DBBE36 /* EndViewController.swift */; };
+		E48CA8D320E23BA600DBBE36 /* CheckPilRemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633820AA20DD70AF00F60DB2 /* CheckPilRemTableViewController.swift */; };
+		E492900F20DC574600C486CA /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E492900E20DC574600C486CA /* CategoryTableViewController.swift */; };
+		E492901120DC575600C486CA /* DocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E492901020DC575600C486CA /* DocumentTableViewController.swift */; };
+		E4AC0ACB20B442770059A768 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AC0ACA20B442770059A768 /* User.swift */; };
+		E4AC0AF120B574070059A768 /* Health.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4AC0AEF20B574070059A768 /* Health.xcdatamodeld */; };
+		E4AC0AF720B6C7930059A768 /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AC0AF620B6C7930059A768 /* TableHeaderView.swift */; };
+		E4AC0B0820BC270B0059A768 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AC0B0720BC270B0059A768 /* CardView.swift */; };
+		E4AC0B0A20BC27430059A768 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AC0B0920BC27430059A768 /* CategoryCollectionViewCell.swift */; };
+		E4B4701220DDA08800646B50 /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4701120DDA08800646B50 /* DocumentTableViewCell.swift */; };
+		E4C91A3720B43FC9001131ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C91A3620B43FC9001131ED /* AppDelegate.swift */; };
+		E4C91A3E20B43FC9001131ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C91A3C20B43FC9001131ED /* Main.storyboard */; };
+		E4C91A4020B43FCA001131ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C91A3F20B43FCA001131ED /* Assets.xcassets */; };
+		E4C91A4320B43FCA001131ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C91A4120B43FCA001131ED /* LaunchScreen.storyboard */; };
+		E4C91A4E20B44034001131ED /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C91A4D20B44034001131ED /* ProfileTableViewController.swift */; };
+		E4C91A5020B4406E001131ED /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C91A4F20B4406E001131ED /* Home.storyboard */; };
+		E4C91A5220B44097001131ED /* MedicalHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C91A5120B44097001131ED /* MedicalHistory.storyboard */; };
+		E4C91A5420B440A7001131ED /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C91A5320B440A7001131ED /* Profile.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		631FCFC220B447D00069AC99 /* Reminder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reminder.storyboard; sourceTree = "<group>"; };
+		631FCFC420B447DF0069AC99 /* Recomendation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recomendation.storyboard; sourceTree = "<group>"; };
+		631FCFC620B4491D0069AC99 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		631FCFCA20B4494A0069AC99 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		631FCFCC20B4496E0069AC99 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		633420C320B5E594002BA7DE /* NotificationCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterManager.swift; sourceTree = "<group>"; };
+		633420C520B6C525002BA7DE /* RemindersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableViewController.swift; sourceTree = "<group>"; };
+		633420C720B6D140002BA7DE /* NewReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReminderTableViewController.swift; sourceTree = "<group>"; };
+		633420CA20B6DF17002BA7DE /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		633420CC20B70A93002BA7DE /* NotificationTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTypes.swift; sourceTree = "<group>"; };
+		633820A420DD516300F60DB2 /* PillsReminder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PillsReminder.storyboard; sourceTree = "<group>"; };
+		633820A620DD707F00F60DB2 /* PillsRemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsRemTableViewController.swift; sourceTree = "<group>"; };
+		633820A820DD709900F60DB2 /* NewPillRemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPillRemTableViewController.swift; sourceTree = "<group>"; };
+		633820AA20DD70AF00F60DB2 /* CheckPilRemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPilRemTableViewController.swift; sourceTree = "<group>"; };
+		633820AC20DD70BE00F60DB2 /* EditPillRemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPillRemTableViewController.swift; sourceTree = "<group>"; };
+		633820AE20DD734800F60DB2 /* PillReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillReminder.swift; sourceTree = "<group>"; };
+		639C77D420BC498E00D23014 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		63D85FF120DAA0E70003A827 /* EditReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderTableViewController.swift; sourceTree = "<group>"; };
+		7155435320E1000B0011A8FB /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		7155435920E101020011A8FB /* RecommendationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationTableViewCell.swift; sourceTree = "<group>"; };
+		7413952020C188C2008F8BF0 /* AddDocument.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddDocument.storyboard; sourceTree = "<group>"; };
+		741395BD20C1922D008F8BF0 /* IRLCamera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IRLCamera.storyboard; sourceTree = "<group>"; };
+		741395C420C19286008F8BF0 /* AddDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDocumentViewController.swift; sourceTree = "<group>"; };
+		741D530820C194C500B5919E /* HealthManager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthManager-Bridging-Header.h"; sourceTree = "<group>"; };
+		7437955E20C0349C00DDE905 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7437956020C0351800DDE905 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7437956120C0351800DDE905 /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		7437956420C0357100DDE905 /* RecommendationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationTableViewController.swift; sourceTree = "<group>"; };
+		7437956620C0357100DDE905 /* CategoriesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewController.swift; sourceTree = "<group>"; };
+		7437956720C0357100DDE905 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		7437957220C0362F00DDE905 /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		7437957320C0362F00DDE905 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		744E8E3D20CA8A580094E3DD /* AddVisitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVisitTableViewController.swift; sourceTree = "<group>"; };
+		744E8E3F20CA8AA50094E3DD /* VisitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitCollectionViewCell.swift; sourceTree = "<group>"; };
+		744E8E4120CA90DE0094E3DD /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		7459CBCE20D0214700747143 /* IRLCameraMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IRLCameraMedia.xcassets; sourceTree = "<group>"; };
+		74E6111A20D0161F00799732 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6111B20D0161F00799732 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6111C20D0161F00799732 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TOCropViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		74E6111D20D0161F00799732 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6111E20D0161F00799732 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6111F20D0161F00799732 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6112020D0161F00799732 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6112120D0161F00799732 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6112220D0161F00799732 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6112420D0161F00799732 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		74E6112520D0161F00799732 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		74E6112620D0161F00799732 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		74E6112720D0161F00799732 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		74E6112820D0161F00799732 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		74E6112920D0161F00799732 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		74E6112A20D0161F00799732 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		74E6112B20D0161F00799732 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		74E6112C20D0161F00799732 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		74E6112D20D0161F00799732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6112E20D0161F00799732 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/TOCropViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		74E6112F20D0161F00799732 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6113020D0161F00799732 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6113120D0161F00799732 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6113220D0161F00799732 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6113320D0161F00799732 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6113420D0161F00799732 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6113520D0161F00799732 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6113620D0161F00799732 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		74E6113820D0161F00799732 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		74E6113920D0161F00799732 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		74E6113A20D0161F00799732 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		74E6113B20D0161F00799732 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		74E6113C20D0161F00799732 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		74E6113D20D0161F00799732 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		74E6113E20D0161F00799732 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		74E6113F20D0161F00799732 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		74E6114020D0161F00799732 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		74E6114C20D016C800799732 /* IRLDocumentScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRLDocumentScanner.h; sourceTree = "<group>"; };
+		74E6114D20D016FB00799732 /* CIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Utilities.m"; sourceTree = "<group>"; };
+		74E6114E20D016FB00799732 /* IRLCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRLCameraView.m; sourceTree = "<group>"; };
+		74E6114F20D016FB00799732 /* CIRectangleFeature+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIRectangleFeature+Utilities.h"; sourceTree = "<group>"; };
+		74E6115020D016FB00799732 /* CIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+Utilities.h"; sourceTree = "<group>"; };
+		74E6115120D016FB00799732 /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
+		74E6115220D016FB00799732 /* IRLCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRLCameraView.h; sourceTree = "<group>"; };
+		74E6115320D016FB00799732 /* CIRectangleFeature+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIRectangleFeature+Utilities.m"; sourceTree = "<group>"; };
+		74E6115420D016FB00799732 /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
+		74E6115920D0172800799732 /* IRLScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRLScannerViewController.h; sourceTree = "<group>"; };
+		74E6115A20D0172800799732 /* IRLScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRLScannerViewController.m; sourceTree = "<group>"; };
+		74EFFE8E20C5CD9600E4C39F /* DocumentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCollectionViewCell.swift; sourceTree = "<group>"; };
+		74F7B8F120E266A900729F83 /* ShowPDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowPDFViewController.swift; sourceTree = "<group>"; };
+		E424809420DA8B5E00197BD7 /* NotificationIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationIdentifiers.swift; sourceTree = "<group>"; };
+		E424809620DA8B6D00197BD7 /* PersistantService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistantService.swift; sourceTree = "<group>"; };
+		E424809820DA8B8200197BD7 /* RecommendationsBase.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RecommendationsBase.plist; sourceTree = "<group>"; };
+		E424809A20DA8BB300197BD7 /* CheckReminderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckReminderTableViewController.swift; sourceTree = "<group>"; };
+		E424809D20DA8BFD00197BD7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E424809F20DA8F1C00197BD7 /* HealthManager.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = HealthManager.entitlements; sourceTree = "<group>"; };
+		E463424F20E00755000414F9 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		E48CA8BC20E1230700DBBE36 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		E48CA8CD20E2344200DBBE36 /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
+		E48CA8CF20E2345A00DBBE36 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		E48CA8D120E2346900DBBE36 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		E492900E20DC574600C486CA /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		E492901020DC575600C486CA /* DocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewController.swift; sourceTree = "<group>"; };
+		E4AC0ACA20B442770059A768 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E4AC0AF020B574070059A768 /* Health.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Health.xcdatamodel; sourceTree = "<group>"; };
+		E4AC0AF620B6C7930059A768 /* TableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
+		E4AC0B0720BC270B0059A768 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E4AC0B0920BC27430059A768 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E4AC0B0D20BC29AB0059A768 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		E4B4701120DDA08800646B50 /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
+		E4C91A3320B43FC9001131ED /* HealthManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C91A3620B43FC9001131ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4C91A3D20B43FC9001131ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4C91A3F20B43FCA001131ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4C91A4220B43FCA001131ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4C91A4420B43FCA001131ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C91A4D20B44034001131ED /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		E4C91A4F20B4406E001131ED /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		E4C91A5120B44097001131ED /* MedicalHistory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MedicalHistory.storyboard; sourceTree = "<group>"; };
+		E4C91A5320B440A7001131ED /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4C91A3020B43FC9001131ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E424809E20DA8BFD00197BD7 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633420C220B5E577002BA7DE /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				633420C320B5E594002BA7DE /* NotificationCenterManager.swift */,
+				633420CC20B70A93002BA7DE /* NotificationTypes.swift */,
+				E424809420DA8B5E00197BD7 /* NotificationIdentifiers.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		633420C920B6DEE8002BA7DE /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				633420CA20B6DF17002BA7DE /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		7437957120C0360000DDE905 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7437957320C0362F00DDE905 /* Onboarding.storyboard */,
+				7437957220C0362F00DDE905 /* OnboardingPageViewController.swift */,
+				E48CA8CD20E2344200DBBE36 /* HealthViewController.swift */,
+				E48CA8CF20E2345A00DBBE36 /* NotificationsViewController.swift */,
+				E48CA8D120E2346900DBBE36 /* EndViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		74E6111820D0161F00799732 /* TOCropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74E6111920D0161F00799732 /* TOCropViewControllerLocalizable.strings */,
+				74E6114020D0161F00799732 /* TOCropViewController.h */,
+				74E6112C20D0161F00799732 /* TOCropViewController.m */,
+				74E6112320D0161F00799732 /* Models */,
+				74E6113720D0161F00799732 /* Views */,
+			);
+			path = TOCropViewController;
+			sourceTree = "<group>";
+		};
+		74E6112320D0161F00799732 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74E6112420D0161F00799732 /* TOActivityCroppedImageProvider.m */,
+				74E6112520D0161F00799732 /* UIImage+CropRotate.m */,
+				74E6112620D0161F00799732 /* TOCropViewControllerTransitioning.m */,
+				74E6112720D0161F00799732 /* TOCroppedImageAttributes.m */,
+				74E6112820D0161F00799732 /* TOActivityCroppedImageProvider.h */,
+				74E6112920D0161F00799732 /* TOCropViewControllerTransitioning.h */,
+				74E6112A20D0161F00799732 /* UIImage+CropRotate.h */,
+				74E6112B20D0161F00799732 /* TOCroppedImageAttributes.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74E6113720D0161F00799732 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74E6113820D0161F00799732 /* TOCropView.h */,
+				74E6113920D0161F00799732 /* TOCropOverlayView.h */,
+				74E6113A20D0161F00799732 /* TOCropToolbar.h */,
+				74E6113B20D0161F00799732 /* TOCropScrollView.m */,
+				74E6113C20D0161F00799732 /* TOCropView.m */,
+				74E6113D20D0161F00799732 /* TOCropOverlayView.m */,
+				74E6113E20D0161F00799732 /* TOCropToolbar.m */,
+				74E6113F20D0161F00799732 /* TOCropScrollView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74E6114B20D0168B00799732 /* IRLScanner */ = {
+			isa = PBXGroup;
+			children = (
+				7459CBCE20D0214700747143 /* IRLCameraMedia.xcassets */,
+				74E6115920D0172800799732 /* IRLScannerViewController.h */,
+				74E6115A20D0172800799732 /* IRLScannerViewController.m */,
+				74E6115020D016FB00799732 /* CIImage+Utilities.h */,
+				74E6114D20D016FB00799732 /* CIImage+Utilities.m */,
+				74E6114F20D016FB00799732 /* CIRectangleFeature+Utilities.h */,
+				74E6115320D016FB00799732 /* CIRectangleFeature+Utilities.m */,
+				74E6115220D016FB00799732 /* IRLCameraView.h */,
+				74E6114E20D016FB00799732 /* IRLCameraView.m */,
+				74E6115120D016FB00799732 /* UIButton+Extensions.h */,
+				74E6115420D016FB00799732 /* UIButton+Extensions.m */,
+				74E6114C20D016C800799732 /* IRLDocumentScanner.h */,
+			);
+			path = IRLScanner;
+			sourceTree = "<group>";
+		};
+		E424809C20DA8BFD00197BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E463424F20E00755000414F9 /* PDFKit.framework */,
+				E424809D20DA8BFD00197BD7 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4C91A2A20B43FC9001131ED = {
+			isa = PBXGroup;
+			children = (
+				E4C91A3520B43FC9001131ED /* HealthManager */,
+				E4C91A3420B43FC9001131ED /* Products */,
+				E424809C20DA8BFD00197BD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4C91A3420B43FC9001131ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C91A3320B43FC9001131ED /* HealthManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4C91A3520B43FC9001131ED /* HealthManager */ = {
+			isa = PBXGroup;
+			children = (
+				E4C91A3620B43FC9001131ED /* AppDelegate.swift */,
+				7437955E20C0349C00DDE905 /* Constants.swift */,
+				7437956020C0351800DDE905 /* DataManager.swift */,
+				7437956120C0351800DDE905 /* HealthKitManager.swift */,
+				E424809620DA8B6D00197BD7 /* PersistantService.swift */,
+				74E6114B20D0168B00799732 /* IRLScanner */,
+				74E6111820D0161F00799732 /* TOCropViewController */,
+				633420C920B6DEE8002BA7DE /* APIManager */,
+				633420C220B5E577002BA7DE /* Notifications */,
+				E4C91A4A20B43FD7001131ED /* Model */,
+				E4C91A4B20B43FE4001131ED /* View */,
+				E4C91A4C20B43FEF001131ED /* Controller */,
+				7437957120C0360000DDE905 /* Onboarding */,
+				E4AC0AEF20B574070059A768 /* Health.xcdatamodeld */,
+				E424809F20DA8F1C00197BD7 /* HealthManager.entitlements */,
+				E4C91A3F20B43FCA001131ED /* Assets.xcassets */,
+				E4C91A4120B43FCA001131ED /* LaunchScreen.storyboard */,
+				E4C91A4420B43FCA001131ED /* Info.plist */,
+				741D530820C194C500B5919E /* HealthManager-Bridging-Header.h */,
+				E424809820DA8B8200197BD7 /* RecommendationsBase.plist */,
+			);
+			path = HealthManager;
+			sourceTree = "<group>";
+		};
+		E4C91A4A20B43FD7001131ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4AC0ACA20B442770059A768 /* User.swift */,
+				631FCFCA20B4494A0069AC99 /* Reminder.swift */,
+				631FCFCC20B4496E0069AC99 /* Category.swift */,
+				631FCFC620B4491D0069AC99 /* Recommendation.swift */,
+				744E8E4120CA90DE0094E3DD /* Config.swift */,
+				633820AE20DD734800F60DB2 /* PillReminder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4C91A4B20B43FE4001131ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4C91A3C20B43FC9001131ED /* Main.storyboard */,
+				E4C91A4F20B4406E001131ED /* Home.storyboard */,
+				631FCFC220B447D00069AC99 /* Reminder.storyboard */,
+				633820A420DD516300F60DB2 /* PillsReminder.storyboard */,
+				631FCFC420B447DF0069AC99 /* Recomendation.storyboard */,
+				E4C91A5120B44097001131ED /* MedicalHistory.storyboard */,
+				E4C91A5320B440A7001131ED /* Profile.storyboard */,
+				7413952020C188C2008F8BF0 /* AddDocument.storyboard */,
+				741395BD20C1922D008F8BF0 /* IRLCamera.storyboard */,
+				E4AC0AF620B6C7930059A768 /* TableHeaderView.swift */,
+				E4AC0B0720BC270B0059A768 /* CardView.swift */,
+				E4AC0B0920BC27430059A768 /* CategoryCollectionViewCell.swift */,
+				E4AC0B0D20BC29AB0059A768 /* UIButton+Extensions.swift */,
+				74EFFE8E20C5CD9600E4C39F /* DocumentCollectionViewCell.swift */,
+				744E8E3F20CA8AA50094E3DD /* VisitCollectionViewCell.swift */,
+				E4B4701120DDA08800646B50 /* DocumentTableViewCell.swift */,
+				7155435920E101020011A8FB /* RecommendationTableViewCell.swift */,
+				7155435320E1000B0011A8FB /* FoldingCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4C91A4C20B43FEF001131ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4C91A4D20B44034001131ED /* ProfileTableViewController.swift */,
+				7437956620C0357100DDE905 /* CategoriesCollectionViewController.swift */,
+				E492900E20DC574600C486CA /* CategoryTableViewController.swift */,
+				E492901020DC575600C486CA /* DocumentTableViewController.swift */,
+				7437956720C0357100DDE905 /* MainTabBarController.swift */,
+				639C77D420BC498E00D23014 /* HomeViewController.swift */,
+				E48CA8BC20E1230700DBBE36 /* HomeCollectionViewController.swift */,
+				633420C720B6D140002BA7DE /* NewReminderTableViewController.swift */,
+				7437956420C0357100DDE905 /* RecommendationTableViewController.swift */,
+				633420C520B6C525002BA7DE /* RemindersTableViewController.swift */,
+				E424809A20DA8BB300197BD7 /* CheckReminderTableViewController.swift */,
+				63D85FF120DAA0E70003A827 /* EditReminderTableViewController.swift */,
+				633820A620DD707F00F60DB2 /* PillsRemTableViewController.swift */,
+				633820AA20DD70AF00F60DB2 /* CheckPilRemTableViewController.swift */,
+				633820AC20DD70BE00F60DB2 /* EditPillRemTableViewController.swift */,
+				633820A820DD709900F60DB2 /* NewPillRemTableViewController.swift */,
+				741395C420C19286008F8BF0 /* AddDocumentViewController.swift */,
+				744E8E3D20CA8A580094E3DD /* AddVisitTableViewController.swift */,
+				74F7B8F120E266A900729F83 /* ShowPDFViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4C91A3220B43FC9001131ED /* HealthManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C91A4720B43FCA001131ED /* Build configuration list for PBXNativeTarget "HealthManager" */;
+			buildPhases = (
+				E4C91A2F20B43FC9001131ED /* Sources */,
+				E4C91A3020B43FC9001131ED /* Frameworks */,
+				E4C91A3120B43FC9001131ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthManager;
+			productName = HealthManager;
+			productReference = E4C91A3320B43FC9001131ED /* HealthManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4C91A2B20B43FC9001131ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SW7D;
+				TargetAttributes = {
+					E4C91A3220B43FC9001131ED = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E4C91A2E20B43FC9001131ED /* Build configuration list for PBXProject "HealthManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				ar,
+				"zh-Hans",
+				ja,
+				es,
+				da,
+				it,
+				ko,
+				"zh-Hant",
+				tr,
+				pl,
+				vi,
+				ru,
+				fr,
+				id,
+				nl,
+				pt,
+			);
+			mainGroup = E4C91A2A20B43FC9001131ED;
+			productRefGroup = E4C91A3420B43FC9001131ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4C91A3220B43FC9001131ED /* HealthManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4C91A3120B43FC9001131ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C91A5420B440A7001131ED /* Profile.storyboard in Resources */,
+				7413952120C188C2008F8BF0 /* AddDocument.storyboard in Resources */,
+				7437957520C0362F00DDE905 /* Onboarding.storyboard in Resources */,
+				74E6114120D0161F00799732 /* TOCropViewControllerLocalizable.strings in Resources */,
+				741395BE20C1922D008F8BF0 /* IRLCamera.storyboard in Resources */,
+				7459CBD020D0214800747143 /* IRLCameraMedia.xcassets in Resources */,
+				E4C91A4320B43FCA001131ED /* LaunchScreen.storyboard in Resources */,
+				E4C91A4020B43FCA001131ED /* Assets.xcassets in Resources */,
+				633820A520DD516300F60DB2 /* PillsReminder.storyboard in Resources */,
+				631FCFC520B447DF0069AC99 /* Recomendation.storyboard in Resources */,
+				E4C91A3E20B43FC9001131ED /* Main.storyboard in Resources */,
+				E4C91A5220B44097001131ED /* MedicalHistory.storyboard in Resources */,
+				E4C91A5020B4406E001131ED /* Home.storyboard in Resources */,
+				E424809920DA8B8200197BD7 /* RecommendationsBase.plist in Resources */,
+				631FCFC320B447D00069AC99 /* Reminder.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4C91A2F20B43FC9001131ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48CA8D320E23BA600DBBE36 /* CheckPilRemTableViewController.swift in Sources */,
+				633820A920DD709900F60DB2 /* NewPillRemTableViewController.swift in Sources */,
+				7437955F20C0349C00DDE905 /* Constants.swift in Sources */,
+				E424809520DA8B5E00197BD7 /* NotificationIdentifiers.swift in Sources */,
+				E4AC0AF720B6C7930059A768 /* TableHeaderView.swift in Sources */,
+				631FCFC720B4491D0069AC99 /* Recommendation.swift in Sources */,
+				E4C91A4E20B44034001131ED /* ProfileTableViewController.swift in Sources */,
+				741395C520C19286008F8BF0 /* AddDocumentViewController.swift in Sources */,
+				74F7B8F220E266AA00729F83 /* ShowPDFViewController.swift in Sources */,
+				E48CA8CE20E2344200DBBE36 /* HealthViewController.swift in Sources */,
+				E4AC0B0A20BC27430059A768 /* CategoryCollectionViewCell.swift in Sources */,
+				E4C91A3720B43FC9001131ED /* AppDelegate.swift in Sources */,
+				74E6114820D0161F00799732 /* TOCropView.m in Sources */,
+				744E8E3E20CA8A580094E3DD /* AddVisitTableViewController.swift in Sources */,
+				633820AF20DD734800F60DB2 /* PillReminder.swift in Sources */,
+				E48CA8D220E2346900DBBE36 /* EndViewController.swift in Sources */,
+				74E6115820D016FB00799732 /* UIButton+Extensions.m in Sources */,
+				744E8E4020CA8AA50094E3DD /* VisitCollectionViewCell.swift in Sources */,
+				633820A720DD707F00F60DB2 /* PillsRemTableViewController.swift in Sources */,
+				E4AC0AF120B574070059A768 /* Health.xcdatamodeld in Sources */,
+				E424809B20DA8BB400197BD7 /* CheckReminderTableViewController.swift in Sources */,
+				7437956820C0357100DDE905 /* RecommendationTableViewController.swift in Sources */,
+				7437956320C0351800DDE905 /* HealthKitManager.swift in Sources */,
+				E492900F20DC574600C486CA /* CategoryTableViewController.swift in Sources */,
+				E424809720DA8B6D00197BD7 /* PersistantService.swift in Sources */,
+				639C77D520BC498E00D23014 /* HomeViewController.swift in Sources */,
+				631FCFCB20B4494A0069AC99 /* Reminder.swift in Sources */,
+				74E6114720D0161F00799732 /* TOCropScrollView.m in Sources */,
+				7437956220C0351800DDE905 /* DataManager.swift in Sources */,
+				74E6114620D0161F00799732 /* TOCropViewController.m in Sources */,
+				74E6114420D0161F00799732 /* TOCropViewControllerTransitioning.m in Sources */,
+				E4AC0ACB20B442770059A768 /* User.swift in Sources */,
+				74E6114A20D0161F00799732 /* TOCropToolbar.m in Sources */,
+				633420C620B6C525002BA7DE /* RemindersTableViewController.swift in Sources */,
+				633420CD20B70A93002BA7DE /* NotificationTypes.swift in Sources */,
+				633420C420B5E594002BA7DE /* NotificationCenterManager.swift in Sources */,
+				74E6114920D0161F00799732 /* TOCropOverlayView.m in Sources */,
+				633420CB20B6DF17002BA7DE /* APIManager.swift in Sources */,
+				63D85FF220DAA0E70003A827 /* EditReminderTableViewController.swift in Sources */,
+				74E6115520D016FB00799732 /* CIImage+Utilities.m in Sources */,
+				7437956B20C0357100DDE905 /* MainTabBarController.swift in Sources */,
+				7155435420E1000B0011A8FB /* FoldingCell.swift in Sources */,
+				633420C820B6D141002BA7DE /* NewReminderTableViewController.swift in Sources */,
+				74E6114520D0161F00799732 /* TOCroppedImageAttributes.m in Sources */,
+				74EFFE8F20C5CD9600E4C39F /* DocumentCollectionViewCell.swift in Sources */,
+				744E8E4220CA90DE0094E3DD /* Config.swift in Sources */,
+				7155435A20E101020011A8FB /* RecommendationTableViewCell.swift in Sources */,
+				631FCFCD20B4496E0069AC99 /* Category.swift in Sources */,
+				E492901120DC575600C486CA /* DocumentTableViewController.swift in Sources */,
+				74E6115620D016FB00799732 /* IRLCameraView.m in Sources */,
+				633820AD20DD70BE00F60DB2 /* EditPillRemTableViewController.swift in Sources */,
+				74E6115B20D0172800799732 /* IRLScannerViewController.m in Sources */,
+				7437956A20C0357100DDE905 /* CategoriesCollectionViewController.swift in Sources */,
+				7437957420C0362F00DDE905 /* OnboardingPageViewController.swift in Sources */,
+				74E6114220D0161F00799732 /* TOActivityCroppedImageProvider.m in Sources */,
+				E4B4701220DDA08800646B50 /* DocumentTableViewCell.swift in Sources */,
+				74E6115720D016FB00799732 /* CIRectangleFeature+Utilities.m in Sources */,
+				E48CA8BD20E1230700DBBE36 /* HomeCollectionViewController.swift in Sources */,
+				E48CA8D020E2345A00DBBE36 /* NotificationsViewController.swift in Sources */,
+				74E6114320D0161F00799732 /* UIImage+CropRotate.m in Sources */,
+				E4AC0B0820BC270B0059A768 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74E6111920D0161F00799732 /* TOCropViewControllerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E6111A20D0161F00799732 /* de */,
+				74E6111B20D0161F00799732 /* ar */,
+				74E6111C20D0161F00799732 /* zh-Hans */,
+				74E6111D20D0161F00799732 /* ja */,
+				74E6111E20D0161F00799732 /* en */,
+				74E6111F20D0161F00799732 /* es */,
+				74E6112020D0161F00799732 /* da */,
+				74E6112120D0161F00799732 /* it */,
+				74E6112220D0161F00799732 /* ko */,
+				74E6112D20D0161F00799732 /* Base */,
+				74E6112E20D0161F00799732 /* zh-Hant */,
+				74E6112F20D0161F00799732 /* tr */,
+				74E6113020D0161F00799732 /* pl */,
+				74E6113120D0161F00799732 /* vi */,
+				74E6113220D0161F00799732 /* ru */,
+				74E6113320D0161F00799732 /* fr */,
+				74E6113420D0161F00799732 /* id */,
+				74E6113520D0161F00799732 /* nl */,
+				74E6113620D0161F00799732 /* pt */,
+			);
+			name = TOCropViewControllerLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		E4C91A3C20B43FC9001131ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C91A3D20B43FC9001131ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4C91A4120B43FCA001131ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C91A4220B43FCA001131ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4C91A4520B43FCA001131ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4C91A4620B43FCA001131ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4C91A4820B43FCA001131ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HealthManager/HealthManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YU82LVM5G;
+				INFOPLIST_FILE = HealthManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sw7d.remedy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthManager/HealthManager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E4C91A4920B43FCA001131ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HealthManager/HealthManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YU82LVM5G;
+				INFOPLIST_FILE = HealthManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sw7d.remedy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthManager/HealthManager-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4C91A2E20B43FC9001131ED /* Build configuration list for PBXProject "HealthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C91A4520B43FCA001131ED /* Debug */,
+				E4C91A4620B43FCA001131ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C91A4720B43FCA001131ED /* Build configuration list for PBXNativeTarget "HealthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C91A4820B43FCA001131ED /* Debug */,
+				E4C91A4920B43FCA001131ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4AC0AEF20B574070059A768 /* Health.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4AC0AF020B574070059A768 /* Health.xcdatamodel */,
+			);
+			currentVersion = E4AC0AF020B574070059A768 /* Health.xcdatamodel */;
+			path = Health.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4C91A2B20B43FC9001131ED /* Project object */;
+}

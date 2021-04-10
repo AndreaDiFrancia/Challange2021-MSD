@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0AX-o3-r7R">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding Page View Controller-->
+        <scene sceneID="cNu-TT-jCf">
+            <objects>
+                <pageViewController storyboardIdentifier="OnboardingPageController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="0AX-o3-r7R" customClass="OnboardingPageViewController" customModule="HealthManager" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kbe-Vh-0eo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-454" y="152"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zEn-kU-zAK">
+            <objects>
+                <viewController storyboardIdentifier="FirstViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7F8-hp-8cw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YNs-cJ-I6j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="FCp-s1-e7d">
+                                <rect key="frame" x="16" y="243" width="343" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="2aF-Wj-IMO"/>
+                                </constraints>
+                                <string key="text">Remedy helps you take care of your health. You can save your medical records, add medical reminders and view tailor made reccomendations about your health.</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cH-Lz-uck">
+                                <rect key="frame" x="16" y="185" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65490196079999996" green="0.83137254900000002" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="t48-Ex-G4e" firstAttribute="trailing" secondItem="FCp-s1-e7d" secondAttribute="trailing" constant="16" id="Bt6-Gr-swx"/>
+                            <constraint firstItem="FCp-s1-e7d" firstAttribute="leading" secondItem="t48-Ex-G4e" secondAttribute="leading" constant="16" id="Lk1-ex-vm0"/>
+                            <constraint firstItem="FCp-s1-e7d" firstAttribute="centerX" secondItem="YNs-cJ-I6j" secondAttribute="centerX" id="iEF-Xz-BVT"/>
+                            <constraint firstItem="FCp-s1-e7d" firstAttribute="centerY" secondItem="YNs-cJ-I6j" secondAttribute="centerY" id="kmk-ng-i4S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="t48-Ex-G4e"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1G-Zc-IHE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="152"/>
+        </scene>
+        <!--Health View Controller-->
+        <scene sceneID="OVP-qD-MAQ">
+            <objects>
+                <viewController storyboardIdentifier="HealthViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HGd-iE-kL2" customClass="HealthViewController" customModule="HealthManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZRc-Ee-hM9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIh-gi-EMi">
+                                <rect key="frame" x="32" y="401" width="311" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="42d-ZI-cGK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Take data from Health app">
+                                    <color key="titleColor" red="0.65490196079999996" green="0.83137254900000002" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="takeDataFromHealth:" destination="HGd-iE-kL2" eventType="touchUpInside" id="wBY-6m-cog"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We will setup your profile by taking informations from the Health app" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKZ-e9-An6">
+                                <rect key="frame" x="16" y="291" width="343" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="zcN-23-MgF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65490196079999996" green="0.83137254900000002" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1Aq-h6-8fX" firstAttribute="trailing" secondItem="XKZ-e9-An6" secondAttribute="trailing" constant="16" id="EAn-qv-Jqh"/>
+                            <constraint firstItem="XKZ-e9-An6" firstAttribute="centerY" secondItem="ZRc-Ee-hM9" secondAttribute="centerY" id="HdM-DU-0em"/>
+                            <constraint firstItem="XKZ-e9-An6" firstAttribute="leading" secondItem="1Aq-h6-8fX" secondAttribute="leading" constant="16" id="Jgu-uP-3V0"/>
+                            <constraint firstItem="XKZ-e9-An6" firstAttribute="centerX" secondItem="ZRc-Ee-hM9" secondAttribute="centerX" id="Rwa-JJ-tJE"/>
+                            <constraint firstItem="fIh-gi-EMi" firstAttribute="top" secondItem="XKZ-e9-An6" secondAttribute="bottom" constant="24" id="jEG-bQ-WQt"/>
+                            <constraint firstItem="fIh-gi-EMi" firstAttribute="leading" secondItem="1Aq-h6-8fX" secondAttribute="leading" constant="32" id="kmD-04-9Nk"/>
+                            <constraint firstItem="1Aq-h6-8fX" firstAttribute="trailing" secondItem="fIh-gi-EMi" secondAttribute="trailing" constant="32" id="vGH-J8-v44"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1Aq-h6-8fX"/>
+                    </view>
+                    <connections>
+                        <outlet property="healthButton" destination="fIh-gi-EMi" id="S66-C8-Y7K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="62n-yo-tfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1068" y="152"/>
+        </scene>
+        <!--End View Controller-->
+        <scene sceneID="HYg-LY-koO">
+            <objects>
+                <viewController storyboardIdentifier="EndViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wws-Xs-uKa" customClass="EndViewController" customModule="HealthManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qp5-MM-ddm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're now ready for use the app!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gge-pp-R1e">
+                                <rect key="frame" x="16" y="303" width="343" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="pci-dO-gbr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoH-Qw-Ok7">
+                                <rect key="frame" x="32" y="387" width="311" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="RrP-bl-uid"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" red="0.65490196079999996" green="0.83137254900000002" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="dismissAction:" destination="wws-Xs-uKa" eventType="touchUpInside" id="S4Y-Br-1cF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65490196079999996" green="0.83137254900000002" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UCK-EL-S9Y" firstAttribute="trailing" secondItem="gge-pp-R1e" secondAttribute="trailing" constant="16" id="5LL-1V-fdS"/>
+                            <constraint firstItem="UCK-EL-S9Y" firstAttribute="trailing" secondItem="EoH-Qw-Ok7" secondAttribute="trailing" constant="32" id="KX9-bX-WFv"/>
+                            <constraint firstItem="gge-pp-R1e" firstAttribute="leading" secondItem="UCK-EL-S9Y" secondAttribute="leading" constant="16" id="Sfd-aF-Wvr"/>
+                            <constraint firstItem="gge-pp-R1e" firstAttribute="centerY" secondItem="Qp5-MM-ddm" secondAttribute="centerY" id="aXz-wX-6cA"/>
+                            <constraint firstItem="EoH-Qw-Ok7" firstAttribute="top" secondItem="gge-pp-R1e" secondAttribute="bottom" constant="24" id="fXl-1O-B4c"/>
+                            <constraint firstItem="EoH-Qw-Ok7" firstAttribute="leading" secondItem="UCK-EL-S9Y" secondAttribute="leading" constant="32" id="tO0-7Z-2C2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UCK-EL-S9Y"/>
+                    </view>
+                    <connections>
+                        <outlet property="endButton" destination="EoH-Qw-Ok7" id="vRJ-kC-LO1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tI1-8Z-8z3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2543" y="152"/>
+        </scene>
+        <!--Notifications View Controller-->
+        <scene sceneID="xNY-nY-xS5">
+            <objects>
+                <viewController storyboardIdentifier="NotificationsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="N2V-Ah-sPt" customClass="NotificationsViewController" customModule="HealthManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kIi-HK-DR9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To remind pills and appointments, the app will send you notifications" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCD-GI-8K1">
+                                <rect key="frame" x="16" y="291" width="343" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="2jl-hQ-LBJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSw-6r-Ld1">
+                                <rect key="frame" x="32" y="401" width="311" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Z7f-UA-3te"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Allow notifications">
+                                    <color key="titleColor" red="0.65490196079999996" green="0.83137254900000002" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="allowNotificationsAction:" destination="N2V-Ah-sPt" eventType="touchUpInside" id="UuV-oQ-eXN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65490196079999996" green="0.83137254900000002" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KCD-GI-8K1" firstAttribute="leading" secondItem="ehe-vc-Sgg" secondAttribute="leading" constant="16" id="7nZ-aA-pQg"/>
+                            <constraint firstItem="KCD-GI-8K1" firstAttribute="centerY" secondItem="kIi-HK-DR9" secondAttribute="centerY" id="FAr-8R-Rvj"/>
+                            <constraint firstItem="dSw-6r-Ld1" firstAttribute="top" secondItem="KCD-GI-8K1" secondAttribute="bottom" constant="24" id="YyL-06-oEa"/>
+                            <constraint firstItem="ehe-vc-Sgg" firstAttribute="trailing" secondItem="dSw-6r-Ld1" secondAttribute="trailing" constant="32" id="hhQ-lF-8gm"/>
+                            <constraint firstItem="ehe-vc-Sgg" firstAttribute="trailing" secondItem="KCD-GI-8K1" secondAttribute="trailing" constant="16" id="iEK-sZ-P9u"/>
+                            <constraint firstItem="dSw-6r-Ld1" firstAttribute="leading" secondItem="ehe-vc-Sgg" secondAttribute="leading" constant="32" id="tQB-uD-h7d"/>
+                            <constraint firstItem="KCD-GI-8K1" firstAttribute="centerX" secondItem="kIi-HK-DR9" secondAttribute="centerX" id="wMi-Kg-Mft"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ehe-vc-Sgg"/>
+                    </view>
+                    <connections>
+                        <outlet property="notificationsButton" destination="dSw-6r-Ld1" id="Cpu-Yt-PRn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6d-8s-3o0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812" y="152"/>
+        </scene>
+    </scenes>
+</document>
