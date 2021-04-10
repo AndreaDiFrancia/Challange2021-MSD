@@ -1,9 +1,6 @@
-
-# Challange2021-MSD
+# Codemotion2021 hallenge promossa da MSD
 
 ## Beyond Covid-19
- 
-## Challenge promossa da MSD
 
 MSD Italia propone la sfida “Beyond Covid-19” per identificare soluzioni volte a recuperare quei pazienti che a causa 
 dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura diagnostici terapeutici con un danno di salute a partire da marzo 2020.
@@ -15,12 +12,19 @@ dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura di
  finalizzate al miglioramento del tracciamento e dell’aggregazione dei dati sui pazienti e cittadini che sono rimasti indietro e più in
  generale di ideare nuovi servizi a supporto degli stessi per il recupero del gap di diagnosi e follow-up.
 	
+## Trenta3 - La nostra idea di APP
+![Schermata 2021-04-11 alle 01 13 32](https://user-images.githubusercontent.com/32599184/114286921-2bab0480-9a63-11eb-8d82-20caa1c66976.png)
 
-Next steps:
+* Main Feature 
+	* **Calendario virtuale** per appuntamenti medici con possibilità di gestire altri membri della famiglia (anziani, bambini, disabili). Reminder di medicazioni (pillole, trattamenti).
+	* **Raccomandazioni** generali in base al sesso, peso, età, attività sportiva, attitudine, stile di vita, possibilità di integrare esame del DNA
+	* Screening preliminare per sintomatologie con possibili correlazioni e **cartella clinica virtuale** in cui tenere traccia di tutti i referti.
+
+
+# Next steps:
 - [x] Partecipare alla challange
 - [x] Pubblicare il progetto
 - [ ] Vincere
-
 
 
 ![Schermata 2021-04-11 alle 01 05 36](https://user-images.githubusercontent.com/32599184/114286789-29947600-9a62-11eb-8298-d058ff976ad6.png)
