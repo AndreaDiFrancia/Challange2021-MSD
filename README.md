@@ -14,7 +14,7 @@ dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura di
 	
 ## Trenta3 - La nostra idea di APP
 
-<img src="https://metypes.github.io/mariord/Resources/ezgif.com-gif-maker.gif" width="720" height="600" />
+<img src="https://metypes.github.io/mariord/Resources/ezgif.com-gif-maker.gif" width="720" height="600" /> <img src="https://metypes.github.io/mariord/msd_save_to_scan.gif" width="800" height="800" />
 
 
 ## Requirements
