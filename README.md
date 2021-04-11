@@ -2,7 +2,7 @@
 
 ## Beyond Covid-19
 
-MSD Italia propone la sfida “Beyond Covid-19” per identificare soluzioni volte a recuperare quei pazienti che a causa 
+**MSD Italia** propone la sfida “Beyond Covid-19” per identificare soluzioni volte a recuperare quei pazienti che a causa 
 dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura diagnostici terapeutici con un danno di salute a partire da marzo 2020.
  I numeri di prestazioni saltate sono preoccupanti perché coinvolgono non solo i pazienti cronici ma anche le nuove diagnosi
  con ripercussioni sullo stato di salute. Oggi a causa della pandemia non ci sono dati disponibili sul numero effettivo di pazienti
@@ -17,14 +17,16 @@ dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura di
 ![Schermata 2021-04-11 alle 01 13 32](https://user-images.githubusercontent.com/32599184/114286921-2bab0480-9a63-11eb-8d82-20caa1c66976.png)
 
 ## Requirements
+
 * iOS 11.3+
 * Xcode 12.4
 * Swift 4.2
  
-* Main Feature 
-	* **Calendario virtuale** per appuntamenti medici con possibilità di gestire altri membri della famiglia (anziani, bambini, disabili). Reminder di medicazioni (pillole, trattamenti).
-	* **Raccomandazioni** generali in base al sesso, peso, età, attività sportiva, attitudine, stile di vita, possibilità di integrare esame del DNA
-	* Screening preliminare per sintomatologie con possibili correlazioni e **cartella clinica virtuale** in cui tenere traccia di tutti i referti.
+## Main Feature 
+
+* **Calendario virtuale** per appuntamenti medici con possibilità di gestire altri membri della famiglia (anziani, bambini, disabili). Reminder di medicazioni (pillole, trattamenti).
+* **Raccomandazioni** generali in base al sesso, peso, età, attività sportiva, attitudine, stile di vita, possibilità di integrare esame del DNA
+* Screening preliminare per sintomatologie con possibili correlazioni e **cartella clinica virtuale** in cui tenere traccia di tutti i referti.
 
 
 # Next steps:
