@@ -12,7 +12,7 @@ dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura di
  finalizzate al miglioramento del tracciamento e dell’aggregazione dei dati sui pazienti e cittadini che sono rimasti indietro e più in
  generale di ideare nuovi servizi a supporto degli stessi per il recupero del gap di diagnosi e follow-up.
 	
-## Trenta3 - La nostra idea di APP
+## 3Tre - La nostra idea di APP
 
 ![Schermata 2021-04-11 alle 01 13 32](https://user-images.githubusercontent.com/32599184/114286921-2bab0480-9a63-11eb-8d82-20caa1c66976.png)
 
