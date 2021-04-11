@@ -1,4 +1,4 @@
-# Codemotion2021 hallenge promossa da MSD
+# Codemotion2021 Challenge promossa da MSD
 
 ## Beyond Covid-19
 
@@ -13,8 +13,14 @@ dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura di
  generale di ideare nuovi servizi a supporto degli stessi per il recupero del gap di diagnosi e follow-up.
 	
 ## Trenta3 - La nostra idea di APP
+
 ![Schermata 2021-04-11 alle 01 13 32](https://user-images.githubusercontent.com/32599184/114286921-2bab0480-9a63-11eb-8d82-20caa1c66976.png)
 
+## Requirements
+* iOS 11.3+
+* Xcode 12.4
+* Swift 4.2
+ 
 * Main Feature 
 	* **Calendario virtuale** per appuntamenti medici con possibilità di gestire altri membri della famiglia (anziani, bambini, disabili). Reminder di medicazioni (pillole, trattamenti).
 	* **Raccomandazioni** generali in base al sesso, peso, età, attività sportiva, attitudine, stile di vita, possibilità di integrare esame del DNA
