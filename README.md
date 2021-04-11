@@ -12,9 +12,10 @@ dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura di
  finalizzate al miglioramento del tracciamento e dell’aggregazione dei dati sui pazienti e cittadini che sono rimasti indietro e più in
  generale di ideare nuovi servizi a supporto degli stessi per il recupero del gap di diagnosi e follow-up.
 	
-## 3Tre - La nostra idea di APP
+## Trenta3 - La nostra idea di APP
 
-![Schermata 2021-04-11 alle 01 13 32](https://user-images.githubusercontent.com/32599184/114286921-2bab0480-9a63-11eb-8d82-20caa1c66976.png)
+<img src="https://metypes.github.io/mariord/Resources/ezgif.com-gif-maker.gif" width="720" height="600" />
+
 
 ## Requirements
 
@@ -28,10 +29,16 @@ dell’emergenza sanitaria in atto sono rimasti indietro nei percorsi di cura di
 * **Raccomandazioni** generali in base al sesso, peso, età, attività sportiva, attitudine, stile di vita, possibilità di integrare esame del DNA
 * Screening preliminare per sintomatologie con possibili correlazioni e **cartella clinica virtuale** in cui tenere traccia di tutti i referti.
 
+# Slides
+
+https://docs.google.com/presentation/d/12o2duIK-a6tDi41DBZG9Bcw1l_gwW7SRzaiOxK6NDf0/edit#slide=id.gcd0adf93ed_1_12
+
+![Schermata 2021-04-11 alle 01 13 32](https://user-images.githubusercontent.com/32599184/114286921-2bab0480-9a63-11eb-8d82-20caa1c66976.png)
 
 # Next steps:
-- [x] Partecipare alla challange
-- [x] Pubblicare il progetto
+- [X] Partecipare alla challange
+- [X] Creare le slides
+- [X] Pubblicare il progetto
 - [ ] Vincere
 
 
